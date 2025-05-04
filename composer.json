@@ -1,0 +1,25 @@
+{
+    "name": "achilleskal/kallikratis",
+    "description": "A PHP library for working with Greece’s administrative divisions based on the Kallikratis reform.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kallikratis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AchillesKal",
+            "email": "achilleas90gr@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpoffice/phpspreadsheet": "^4.2",
+        "ext-mbstring": "*",
+        "symfony/var-dumper": "^7.2"
+    },
+    "require": {
+        "ext-json": "*"
+    }
+}
